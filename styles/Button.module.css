@@ -1,0 +1,15 @@
+.homeButton {
+    border-radius: 40px;
+    background-color: #000000;
+    border: 1px;
+    color: #ffffff;
+    width: 380px;
+    height: 80px;
+    font-family: gotham-bold;
+    font-size: 20px;
+    margin-top: 15%;
+}
+
+.homeButton:hover {
+    cursor: pointer;
+}
