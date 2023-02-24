@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "gotham-bold";
+  src: url("../public/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "gotham-black";
+  src: url("../public/fonts/Gotham-Black.otf");
+}
+
+@font-face {
+  font-family: "gotham-light";
+  src: url("../public/fonts/Gotham-Light.otf");
+}
+
+@font-face {
+  font-family: "gotham-thin";
+  src: url("../public/fonts/Gotham-Thin.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: gotham-light, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.light {
+  font-family: gotham-light
+}
+
+.bold {
+  font-family: gotham-bold
+}
+
+.thin {
+  font-family: gotham-thin
+}
+
+.black {
+  font-family: gotham-black
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-c-sb {
+  justify-content: space-between;
+}
